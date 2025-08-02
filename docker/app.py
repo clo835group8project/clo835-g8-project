@@ -23,7 +23,7 @@ DBPORT = int(os.environ.get("DBPORT", 3306))
 YOUR_NAME = os.environ.get("YOUR_NAME") or "CLO835 Student"
 
 # S3 Configuration for background image download
-S3_BUCKET = os.environ.get("S3_BUCKET") or "clo835-finalproject-g8"
+S3_BUCKET = os.environ.get("S3_BUCKET") or "clo835-finalproject-g8rt"
 S3_IMAGE_KEY = os.environ.get("S3_IMAGE_KEY") or "background.jpg"
 AWS_REGION = os.environ.get("AWS_REGION") or "us-east-1"
 LOCAL_IMAGES_FOLDER = "images"  # Local folder for downloaded images

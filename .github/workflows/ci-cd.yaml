@@ -12,7 +12,7 @@ env:
   ECR_REPOSITORY_MYSQL: clo835-mysql-app
 
 jobs:
-  build-and-push:
+  build-and-push:   #update for image push
     name: Build and Push to ECR
     runs-on: ubuntu-latest
     
